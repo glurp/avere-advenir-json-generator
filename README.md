@@ -7,6 +7,11 @@ Voici un script permettant:
 Les données brutes proviennes d'un parc de borne de recharges existant, qui conmporte des message OCPP 1.5
 au format json.
 
+Usage
+> ruby advenir.rb USER-ID-ADVENIR dir
 
+les fichiers json/OCPP sont recherch en ..../dir/scpecific_WEB/bornesjson/log_*.txt
 
-
+LICENSE
+=======
+MIT

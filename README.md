@@ -14,6 +14,10 @@ Usage :
 
 les fichiers json/OCPP de tests sont recherchés en  ```data-json/dir/log_*.txt```
 
+
 LICENSE
 =======
+Les elements de ce projet sont independant de l'association AVERE. 
+Ceci est une production d'un particulier, fournis a titre didactique.
+
 Libre : MIT

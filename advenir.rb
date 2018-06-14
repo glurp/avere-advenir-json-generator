@@ -10,30 +10,58 @@ require 'json'
 require 'pp'
 require 'date'
 require 'time'
+require 'open-uri'
+require 'timeout'
+require 'net/http'
+require 'net/https'
 
 if ARGV.size!=2
- puts "Usage : >  ruby advenir.rb userid contrat"
+ puts "Usage : >  ruby advenir.rb userid site"
  exit(1)
 end
 
-$userid=ARGV[0]
-contrat=ARGV[1]
+$userid="a6d0e6cf-7cac-477a-ae63-7e753c5bdda1"  # ARGV[0]
+site=ARGV[1]
 
 url="https://mon.advenir.mobi/api/operation/put"
-dir= "data-json/#{contrat}"
+url="https://prefixe.webservicetest.advenir.mobi/api/operation/put"
+$user_http="100@servtest.advenir.mobi"
+$pass_http="test123"
+[$user_http,$pass_http]
+dir= "data-json/#{site}"
 
 unless Dir.exists?(dir)
- puts "contrat '#{contrat}' inconnu"
+ puts "site '#{site}' inconnu"
  exit(1)
 end
 
 ###################################################################################
-#  Traitement d'iune borne
+#  Traitement d'une borne
+###################################################################################
+def wput(url,user_passwd,data)
+  puts "Sending to #{url} PUT data (size=#{data.size}) basic auth #{$user_http} '#{$pass_http}' ..."
+  uri = URI(url)
+  res=Net::HTTP.start(uri.host, uri.port,
+            :use_ssl => true, 
+            :verify_mode => OpenSSL::SSL::VERIFY_NONE,
+            :open_timeout => 120) do |http|
+      request = Net::HTTP::Put.new(uri.path, initheader = { 'Content-Type' => 'application/json'})
+      request.basic_auth(*user_passwd)
+      request.body=data
+      response =  http.request(request)
+      [response.code,response.code==200 ? response.body : response.body.to_s[/title>(.*?)<\/title/ , 1]]
+    end
+end
+
+###################################################################################
+#  Traitement d'une borne
 ###################################################################################
 =begin
-{"chargeBoxIdentity":"PLOMEUR_ANCIENSCOMBATTANTS","Action":"/StartTransaction","connectorId":"1","idTag":"8BD2C53F","timestamp":"2018-05-30T16:24:26Z","meterStart":"0","date":"2018-05-30 18:24:29"},
-{"chargeBoxIdentity":"PLOMEUR_ANCIENSCOMBATTANTS","Action":"/MeterValues","connectorId":"1","transactionId":"889301","timestamp":"2018-05-30T16:39:26Z","value":"5223","date":"2018-05-30 18:39:29"},
-{"chargeBoxIdentity":"PLOMEUR_ANCIENSCOMBATTANTS","Action":"/StopTransaction","transactionId":"889301","idTag":"8BD2C53F","timestamp":"2018-05-30T17:24:36Z","meterStop":"15567","date":"2018-05-30 19:24:40"},
+exemple de message OCPP/JSON en log_*txt  :
+
+{"chargeBoxIdentity":"111","Action":"/StartTransaction","connectorId":"1","idTag":"8BD2C53F","timestamp":"2018-05-30T16:24:26Z","meterStart":"0","date":"2018-05-30 18:24:29"},
+{"chargeBoxIdentity":"111","Action":"/MeterValues","connectorId":"1","transactionId":"889301","timestamp":"2018-05-30T16:39:26Z","value":"5223","date":"2018-05-30 18:39:29"},
+{"chargeBoxIdentity":"111","Action":"/StopTransaction","transactionId":"889301","idTag":"8BD2C53F","timestamp":"2018-05-30T17:24:36Z","meterStop":"15567","date":"2018-05-30 19:24:40"},
 
 =end
 def start_cbi(cbi)
@@ -113,7 +141,10 @@ Dir.glob("#{dir}/log_*.txt").each do |fn|
  end_cbi(cbi)
 end
 
-puts JSON.generate(  gene("cdc",$all_cdc) , indent: " ", array_nl: "\n")
-puts JSON.generate(  gene("opc",$all_opc) , indent: " ", array_nl: "\n" )
-
+cdc=JSON.generate(  gene("cdc",$all_cdc) , indent: " ", array_nl: "\n")
+opc=JSON.generate(  gene("opc",$all_opc) , indent: " ", array_nl: "\n" )
+puts cdc if $all_cdc.size>0
+puts opc if $all_opc.size>0
+STDERR.puts "emission cdc: #{wput(url,[$user_http,$pass_http],cdc).inspect}" if $all_cdc.size>0
+STDERR.puts "emission opc: #{wput(url,[$user_http,$pass_http],opc).inspect}" if $all_opc.size>0
 

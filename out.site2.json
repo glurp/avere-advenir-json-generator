@@ -1,0 +1,115 @@
+{ "AAAAA":{}}
+{ "AAAAA":{  "00610":[
+   {    "961401":{     "StartTransaction":1513943810,     "StopTransaction":1513948132,     "StartValue":0,     "StopValue":17425}}
+  ],  "00687":[
+   {    "539801":{     "StartTransaction":1511596157,     "StopTransaction":1511601245,     "StartValue":0,     "StopValue":12051}},
+   {    "964401":{     "StartTransaction":1514561993,     "StopTransaction":1514565285,     "StartValue":0,     "StopValue":9364}},
+   {    "966101":{     "StartTransaction":1515081177,     "StopTransaction":1515084722,     "StartValue":0,     "StopValue":21067}},
+   {    "973201":{     "StartTransaction":1516972158,     "StopTransaction":1516977845,     "StartValue":0,     "StopValue":17505}},
+   {    "983001":{     "StartTransaction":1519144637,     "StopTransaction":1519149071,     "StartValue":0,     "StopValue":26581}},
+   {    "2401":{     "StartTransaction":1523177640,     "StopTransaction":1523181557,     "StartValue":0,     "StopValue":2386}},
+   {    "406301":{     "StartTransaction":1526806160,     "StopTransaction":1526810918,     "StartValue":0,     "StopValue":10267}},
+   {    "417801":{     "StartTransaction":1528527142,     "StopTransaction":1528533013,     "StartValue":0,     "StopValue":23732}},
+   {    "418301":{     "StartTransaction":1528527142,     "StopTransaction":1528533013,     "StartValue":0,     "StopValue":23732}}
+  ],  "00775":[
+   {    "969701":{     "StartTransaction":1515849910,     "StopTransaction":1515855252,     "StartValue":0,     "StopValue":5203}}
+  ],  "01183":[
+   {    "534602":{     "StartTransaction":1510740078,     "StopTransaction":1510744151,     "StartValue":0,     "StopValue":2504}},
+   {    "534802":{     "StartTransaction":1510740078,     "StopTransaction":1510744151,     "StartValue":0,     "StopValue":2504}},
+   {    "538901":{     "StartTransaction":1511263063,     "StopTransaction":1511264847,     "StartValue":0,     "StopValue":2759}},
+   {    "953702":{     "StartTransaction":1512199651,     "StopTransaction":1512205170,     "StartValue":0,     "StopValue":25757}},
+   {    "956601":{     "StartTransaction":1513068483,     "StopTransaction":1513075444,     "StartValue":0,     "StopValue":14821}},
+   {    "957501":{     "StartTransaction":1513260448,     "StopTransaction":1513262383,     "StartValue":0,     "StopValue":9237}},
+   {    "961602":{     "StartTransaction":1513971777,     "StopTransaction":1513978556,     "StartValue":0,     "StopValue":28763}},
+   {    "977901":{     "StartTransaction":1517913742,     "StopTransaction":1517919223,     "StartValue":0,     "StopValue":11094}},
+   {    "683102":{     "StartTransaction":1524644689,     "StopTransaction":1524649296,     "StartValue":0,     "StopValue":2702}},
+   {    "685901":{     "StartTransaction":1524927907,     "StopTransaction":1524935983,     "StartValue":0,     "StopValue":13052}},
+   {    "686801":{     "StartTransaction":1525252390,     "StopTransaction":1525256168,     "StartValue":0,     "StopValue":2329}},
+   {    "408002":{     "StartTransaction":1527059093,     "StopTransaction":1527061388,     "StartValue":0,     "StopValue":5889}},
+   {    "420101":{     "StartTransaction":1528899301,     "StopTransaction":1528905952,     "StartValue":0,     "StopValue":6716}}
+  ],  "01233":[
+   {    "967202":{     "StartTransaction":1515313124,     "StopTransaction":1515323964,     "StartValue":0,     "StopValue":5199}},
+   {    "989101":{     "StartTransaction":1520065640,     "StopTransaction":1520066380,     "StartValue":0,     "StopValue":4047}},
+   {    "996801":{     "StartTransaction":1521905110,     "StopTransaction":1521906318,     "StartValue":0,     "StopValue":1996}},
+   {    "3601":{     "StartTransaction":1523451994,     "StopTransaction":1523456336,     "StartValue":0,     "StopValue":1880}}
+  ],  "01477":[
+   {    "411701":{     "StartTransaction":1527525320,     "StopTransaction":1527526900,     "StartValue":0,     "StopValue":4903}},
+   {    "415001":{     "StartTransaction":1528128737,     "StopTransaction":1528131799,     "StartValue":0,     "StopValue":14019}}
+  ],  "01479":[
+   {    "530901":{     "StartTransaction":1510062924,     "StopTransaction":1510064652,     "StartValue":0,     "StopValue":4413}},
+   {    "531302":{     "StartTransaction":1510123309,     "StopTransaction":1510140525,     "StartValue":0,     "StopValue":26277}},
+   {    "531802":{     "StartTransaction":1510209807,     "StopTransaction":1510253435,     "StartValue":0,     "StopValue":24615}},
+   {    "532902":{     "StartTransaction":1510555159,     "StopTransaction":1510572195,     "StartValue":0,     "StopValue":24721}},
+   {    "534502":{     "StartTransaction":1510728131,     "StopTransaction":1510744917,     "StartValue":0,     "StopValue":30167}},
+   {    "535202":{     "StartTransaction":1510816997,     "StopTransaction":1510854196,     "StartValue":0,     "StopValue":15475}},
+   {    "539202":{     "StartTransaction":1511421532,     "StopTransaction":1511435011,     "StartValue":0,     "StopValue":8526}},
+   {    "537401":{     "StartTransaction":1511767180,     "StopTransaction":1511781615,     "StartValue":0,     "StopValue":35226}},
+   {    "542702":{     "StartTransaction":1512026267,     "StopTransaction":1512041259,     "StartValue":0,     "StopValue":8131}},
+   {    "894202":{     "StartTransaction":1512456603,     "StopTransaction":1512495230,     "StartValue":0,     "StopValue":18340}},
+   {    "956302":{     "StartTransaction":1513060820,     "StopTransaction":1513076913,     "StartValue":0,     "StopValue":27275}},
+   {    "957902":{     "StartTransaction":1513319310,     "StopTransaction":1513336378,     "StartValue":0,     "StopValue":27013}},
+   {    "959002":{     "StartTransaction":1513578836,     "StopTransaction":1513595256,     "StartValue":0,     "StopValue":17362}},
+   {    "959402":{     "StartTransaction":1513664743,     "StopTransaction":1513671597,     "StartValue":0,     "StopValue":13386}},
+   {    "959902":{     "StartTransaction":1513751555,     "StopTransaction":1513768379,     "StartValue":0,     "StopValue":23880}},
+   {    "961102":{     "StartTransaction":1513924971,     "StopTransaction":1513941129,     "StartValue":0,     "StopValue":28183}},
+   {    "963702":{     "StartTransaction":1514529507,     "StopTransaction":1514544755,     "StartValue":0,     "StopValue":21901}},
+   {    "965402":{     "StartTransaction":1514874998,     "StopTransaction":1514892119,     "StartValue":0,     "StopValue":30639}},
+   {    "965802":{     "StartTransaction":1515047833,     "StopTransaction":1515064258,     "StartValue":0,     "StopValue":26407}},
+   {    "967302":{     "StartTransaction":1515393405,     "StopTransaction":1515409636,     "StartValue":0,     "StopValue":30651}},
+   {    "967802":{     "StartTransaction":1515566975,     "StopTransaction":1515582294,     "StartValue":0,     "StopValue":22869}},
+   {    "968102":{     "StartTransaction":1515655496,     "StopTransaction":1515665052,     "StartValue":0,     "StopValue":5948}},
+   {    "968202":{     "StartTransaction":1515672453,     "StopTransaction":1515690397,     "StartValue":0,     "StopValue":11063}},
+   {    "968601":{     "StartTransaction":1515738891,     "StopTransaction":1515755079,     "StartValue":0,     "StopValue":44555}},
+   {    "969902":{     "StartTransaction":1516018692,     "StopTransaction":1516031421,     "StartValue":0,     "StopValue":7959}},
+   {    "970302":{     "StartTransaction":1516084574,     "StopTransaction":1516101910,     "StartValue":0,     "StopValue":25438}},
+   {    "972402":{     "StartTransaction":1516777448,     "StopTransaction":1516791841,     "StartValue":0,     "StopValue":28195}},
+   {    "972801":{     "StartTransaction":1516883966,     "StopTransaction":1516981051,     "StartValue":0,     "StopValue":1920}},
+   {    "973502":{     "StartTransaction":1517046223,     "StopTransaction":1517048297,     "StartValue":0,     "StopValue":1265}},
+   {    "974802":{     "StartTransaction":1517228117,     "StopTransaction":1517247760,     "StartValue":0,     "StopValue":26249}},
+   {    "975402":{     "StartTransaction":1517380321,     "StopTransaction":1517396951,     "StartValue":0,     "StopValue":23386}},
+   {    "981202":{     "StartTransaction":1518676502,     "StopTransaction":1518693340,     "StartValue":0,     "StopValue":28344}},
+   {    "982402":{     "StartTransaction":1519022008,     "StopTransaction":1519039092,     "StartValue":0,     "StopValue":16530}},
+   {    "983202":{     "StartTransaction":1519195570,     "StopTransaction":1519234725,     "StartValue":0,     "StopValue":29529}},
+   {    "986301":{     "StartTransaction":1519659242,     "StopTransaction":1519744766,     "StartValue":0,     "StopValue":31213}},
+   {    "990102":{     "StartTransaction":1520231645,     "StopTransaction":1520249476,     "StartValue":0,     "StopValue":35349}},
+   {    "994701":{     "StartTransaction":1521544338,     "StopTransaction":1521552559,     "StartValue":0,     "StopValue":19508}},
+   {    "995501":{     "StartTransaction":1521660357,     "StopTransaction":1521702531,     "StartValue":0,     "StopValue":13300}},
+   {    "997201":{     "StartTransaction":1522054184,     "StopTransaction":1522054373,     "StartValue":0,     "StopValue":102}},
+   {    "2801":{     "StartTransaction":1523289382,     "StopTransaction":1523291989,     "StartValue":0,     "StopValue":10110}},
+   {    "682901":{     "StartTransaction":1524580305,     "StopTransaction":1524743779,     "StartValue":0,     "StopValue":24939}},
+   {    "684101":{     "StartTransaction":1524743846,     "StopTransaction":1524753705,     "StartValue":0,     "StopValue":6123}},
+   {    "403301":{     "StartTransaction":1526467775,     "StopTransaction":1526483830,     "StartValue":0,     "StopValue":11620}},
+   {    "403701":{     "StartTransaction":1526533455,     "StopTransaction":1526551763,     "StartValue":0,     "StopValue":31804}},
+   {    "404102":{     "StartTransaction":1526558711,     "StopTransaction":1526570652,     "StartValue":0,     "StopValue":7338}},
+   {    "405002":{     "StartTransaction":1526625361,     "StopTransaction":1526637943,     "StartValue":0,     "StopValue":7672}},
+   {    "406902":{     "StartTransaction":1526988801,     "StopTransaction":1526992103,     "StartValue":0,     "StopValue":3257}},
+   {    "408502":{     "StartTransaction":1527145111,     "StopTransaction":1527156090,     "StartValue":0,     "StopValue":6705}},
+   {    "410102":{     "StartTransaction":1527489593,     "StopTransaction":1527518962,     "StartValue":0,     "StopValue":17988}},
+   {    "413002":{     "StartTransaction":1527853725,     "StopTransaction":1527865256,     "StartValue":0,     "StopValue":7073}},
+   {    "413401":{     "StartTransaction":1527923998,     "StopTransaction":1527924570,     "StartValue":0,     "StopValue":732}},
+   {    "414502":{     "StartTransaction":1528094286,     "StopTransaction":1528106958,     "StartValue":0,     "StopValue":7753}},
+   {    "415501":{     "StartTransaction":1528279729,     "StopTransaction":1528297682,     "StartValue":0,     "StopValue":38937}},
+   {    "416202":{     "StartTransaction":1528353770,     "StopTransaction":1528366633,     "StartValue":0,     "StopValue":7862}},
+   {    "416302":{     "StartTransaction":1528372310,     "StopTransaction":1528384226,     "StartValue":0,     "StopValue":7271}},
+   {    "416801":{     "StartTransaction":1528440243,     "StopTransaction":1528452178,     "StartValue":0,     "StopValue":7239}},
+   {    "417001":{     "StartTransaction":1528457691,     "StopTransaction":1528458563,     "StartValue":0,     "StopValue":513}},
+   {    "418601":{     "StartTransaction":1528699522,     "StopTransaction":1528711966,     "StartValue":0,     "StopValue":7616}},
+   {    "419101":{     "StartTransaction":1528732264,     "StopTransaction":1528739298,     "StartValue":0,     "StopValue":32125}},
+   {    "194902":{     "StartTransaction":1528958658,     "StopTransaction":1528970639,     "StartValue":0,     "StopValue":7328}}
+  ],  "01506":[
+   {    "412902":{     "StartTransaction":1527840925,     "StopTransaction":1527843977,     "StartValue":0,     "StopValue":10207}},
+   {    "413502":{     "StartTransaction":1527924725,     "StopTransaction":1527929557,     "StartValue":0,     "StopValue":14511}}
+  ],  "01618":[
+   {    "680101":{     "StartTransaction":1524213783,     "StopTransaction":1524218234,     "StartValue":0,     "StopValue":15337}},
+   {    "684701":{     "StartTransaction":1524819875,     "StopTransaction":1524824607,     "StartValue":0,     "StopValue":14215}},
+   {    "410601":{     "StartTransaction":1527491768,     "StopTransaction":1527495467,     "StartValue":0,     "StopValue":2770}},
+   {    "417902":{     "StartTransaction":1528623418,     "StopTransaction":1528624286,     "StartValue":0,     "StopValue":1430}},
+   {    "419001":{     "StartTransaction":1528710835,     "StopTransaction":1528711787,     "StartValue":0,     "StopValue":5409}}
+  ],  "01775":[
+   {    "684001":{     "StartTransaction":1524739580,     "StopTransaction":1524740368,     "StartValue":0,     "StopValue":2766}},
+   {    "194801":{     "StartTransaction":1528956907,     "StopTransaction":1528972025,     "StartValue":0,     "StopValue":14539}}
+  ],  "01799":[
+   {    "953602":{     "StartTransaction":1512618414,     "StopTransaction":1512622949,     "StartValue":0,     "StopValue":19010}},
+   {    "956802":{     "StartTransaction":1513106624,     "StopTransaction":1513109134,     "StartValue":0,     "StopValue":9578}},
+   {    "957002":{     "StartTransaction":1513106624,     "StopTransaction":1513109134,     "StartValue":0,     "StopValue":9578}}
+  ]}}

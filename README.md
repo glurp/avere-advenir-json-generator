@@ -14,4 +14,4 @@ les fichiers json/OCPP sont recherch en ..../dir/scpecific_WEB/bornesjson/log_*.
 
 LICENSE
 =======
-MIT
+Libre : MIT
